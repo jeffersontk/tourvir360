@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/add/page.tsx", "src/context/AppStateContext.tsx", "src/components/sceneForm/index.jsxsrc/components/Add/sceneScreen/index.jsxsrc/components/Add/spotForm/index.jsxndex.jsx", "src/components/sendToApi/index.jsx", "src/components/sceneForm/index.jsx"],
+  "exclude": ["node_modules"]
+}
