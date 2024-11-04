@@ -9,10 +9,10 @@ export default registerAs(
     'orm.config',
     (): TypeOrmModuleOptions => ({
         type: 'postgres',
-        host: 'nissantourdb.postgres.database.azure.com',
+        host: '****.postgres.database.azure.com',
         port: 5432,
-        username: 'nissandevtour',
-        password: 'DevFirjan#0309',
+        username: '****',
+        password: '****',
         database: 'postgres',
         entities: [Scene, GroupScene, Media, Spot],
         ssl: true,
